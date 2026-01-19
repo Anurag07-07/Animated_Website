@@ -44,8 +44,7 @@ const Agence = () => {
         }
       })
     }, { scope: devRef })
-
-
+    
 
   return (
     <div>
