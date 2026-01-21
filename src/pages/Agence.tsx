@@ -12,7 +12,6 @@ import mel from '../assets/MEL_480X640.jpg'
 import mich from '../assets/Michele_480X640.jpg'
 import oliver from '../assets/Olivier_480x640.jpg'
 
-
 const Agence = () => {
 
   const devRef = useRef<HTMLDivElement>(null)

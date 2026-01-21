@@ -1,4 +1,3 @@
-import React from 'react'
 import Video from '../Components/Home/Video'
 import HomeHeroText from '../Components/Home/HomeHeroText'
 import HomeBottomText from '../Components/Home/HomeBottomText'
