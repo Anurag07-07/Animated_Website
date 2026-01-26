@@ -1,16 +1,11 @@
-import Video1 from './Video1'
+import Video from "./Video"
 
 const HomeHeroText = () => {
   return (
-    <div className=' font-[font1] pt-4 text-center'>
-      <div className=' uppercase text-[9.5vw] leading-[8.5vw] flex justify-center items-center ' >The spark for</div>
-      <div className=' uppercase text-[9.5vw] leading-[8.5vw] flex justify-center items-start ' >
-        all
-        <div className=' h-[7vw] w-[16vw]  overflow-hidden rounded-full'>
-          <Video1></Video1>
-        </div>
-        things</div>
-      <div className=' uppercase text-[9.5vw] leading-[8.5vw] flex justify-center items-center ' >creative</div>
+    <div className="  font-[font2] pt-5 text-center -mt-5">
+      <div className=" tracking-[0.5vw]  text-[8.5vw] uppercase  leading-[8vw] flex items-center justify-center"  >The spark for</div>
+      <div className=" text-[8.5vw] uppercase  leading-[8vw] flex items-center justify-center "  >all   <div className="h-[8vw] rounded-full overflow-hidden"><Video></Video></div> things</div>
+      <div className=" text-[8.5vw] uppercase  leading-[8vw] flex items-center justify-center"  >creative</div>
     </div>
   )
 }
